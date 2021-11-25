@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <div>
+    {% if stocks %}
+      {% for name, price in stocks %}
+        <p> 
+          <span style="opacity:0.4"> {{name}}</span>  
+            <span style="color:green">${{price}}</span>  
+        <p>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <hr>
+  <div class="p-3 mb-2 bg-dark text-white">
+    {% if logs %}
+      {% for log in logs %}
+        <p> {{log}} <p>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+{% endblock %}
+
+

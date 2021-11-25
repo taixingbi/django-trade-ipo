@@ -1,0 +1,10 @@
+django
+djangorestframework
+django-environ
+django-apscheduler
+yfinance
+yahoo_fin
+cryptocompare
+pandas
+robin-stocks
+mpl_finance
