@@ -27,5 +27,7 @@ python manage.py createsuperuser
 python manage.py runserver 0.0.0.0:8083
 ```
 
-
-
+### aws 
+```
+http://18.220.148.40:8083/
+```
