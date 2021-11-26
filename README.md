@@ -29,5 +29,6 @@ python manage.py runserver 0.0.0.0:8083
 
 ### aws 
 ```
+ssh -i "hunter.pem" ubuntu@ec2-18-220-148-40.us-east-2.compute.amazonaws.com
 http://18.220.148.40:8083/
 ```
